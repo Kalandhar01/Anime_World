@@ -1,4 +1,5 @@
 import Image from "next/image";
+import link from '../public/link.gif'
 
 function Footer() {
   return (
@@ -12,13 +13,7 @@ function Footer() {
         className="object-contain"
       />
       <div className="flex items-center gap-6">
-        <Image
-          src="./tiktok.svg"
-          alt="logo"
-          width={19}
-          height={19}
-          className="object-contain"
-        />
+       
         <Image
           src="./instagram.svg"
           alt="logo"
@@ -27,7 +22,7 @@ function Footer() {
           className="object-contain"
         />
         <Image
-          src="./twitter.svg"
+          src={link}
           alt="logo"
           width={19}
           height={19}
